@@ -20,7 +20,7 @@ Additional description about the project and its features.
 
 ## Authors
 
-👤 **Author1**
+👤 **Vignesh**
 
 - GitHub: [@vikipretium](https://github.com/vikipretium)
 - Twitter: [@vikipretium](https://twitter.com/vikipretium)
