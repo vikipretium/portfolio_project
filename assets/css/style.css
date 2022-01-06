@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+
 html {
     background-color: rgb(255, 255, 255);
     font-family: 'Poopins', sans-serif;
@@ -9,6 +11,50 @@ body {
     padding-top: 0;
 }
 
+
+
+/* top bar start */
+
+.top-bar {
+    margin: 0px;
+
+}
+
+/* logo text start*/
+.nav-bar {
+    /* background-color: ghostwhite; */
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.logo-placeholder {
+    width: 100px;
+    height: 40px;
+    /* border: 1px solid pink; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-div {
+    width: 76px;
+    height: 20px;
+    /* border: 1px solid red; */
+}
+
+.logo {
+    color: #6070ff;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 700;
+
+}
+
+/* logo text end */
+
 /* hamburger icon start  */
 .bt {
     width: 40px;
@@ -18,6 +64,9 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    margin-left: auto;
+    margin-right: 1%;
+
 }
 
 .icon {
@@ -51,4 +100,4 @@ body {
 
 /* hamburger icon end */
 
-/* logo_text_start */
+/* top bar end */
