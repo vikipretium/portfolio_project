@@ -1,9 +1,54 @@
-
 html {
-  background-color: #fff;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Poopins', sans-serif;
 }
 
-.top-bar {
-  background-color: #fff;
-  width: 100%;
+body {
+    background-color: #ffffff;
+    margin-top: 0;
+    padding-top: 0;
 }
+
+/* hamburger icon start  */
+.bt {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.squeezer {
+    display: flex;
+    flex-direction: column;
+
+    width: 18px;
+    height: 12px;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.bt1 {
+    width: 16px;
+    border: 1px solid #6070FF;
+    ;
+    border-radius: 1px;
+}
+
+/* hamburger icon end */
+
+/* logo_text_start */
