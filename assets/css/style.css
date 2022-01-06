@@ -25,6 +25,8 @@ body {
     /* background-color: ghostwhite; */
     display: flex;
     flex-direction: row;
+    padding-top: 10px;
+
 
 
 }
@@ -77,17 +79,19 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+
 }
 
 .squeezer {
     display: flex;
     flex-direction: column;
 
-    width: 18px;
-    height: 12px;
+    width: 20px;
+    height: 14px;
     background-color: rgb(255, 255, 255);
     align-items: center;
     justify-content: space-around;
+
 
 }
 
@@ -101,3 +105,119 @@ body {
 /* hamburger icon end */
 
 /* top bar end */
+
+/* headline section */
+
+.welcome-section {
+    background-color: #ffffff;
+}
+
+.headline-wrapper {
+    /* padding-bottom: 100px; */
+    background-image: url("../images/header-shapes.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+
+.headline-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 25px 0 25px;
+    padding-top: 100px;
+}
+
+.intro-text {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    font-family: 'Poppins', sans-serif;
+    color: #091e42;
+    margin: 12px 0;
+}
+
+.intro-message {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #344563;
+}
+
+.connect h3 {
+    color: #6070ff;
+}
+
+.social {
+    display: flex;
+    /* background-color: red; */
+    width: auto;
+    height: 40px;
+
+
+
+}
+
+.twitter {
+    background-image: url("../images/t.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.tw_img {
+    height: 20px;
+    width: 20px;
+}
+
+.linkedin {
+    background-image: url("../images/l.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.lk_img {
+    height: 20px;
+    width: 20px;
+}
+
+.medium {
+    background-image: url("../images/m.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.m_img {
+    height: 20px;
+    width: 20px;
+}
+
+.git {
+    background-image: url("../images/g.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.g_img {
+    height: 20px;
+    width: 20px;
+}
+
+.angel {
+    background-image: url("../images/a.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.a_img {
+    height: 20px;
+    width: 20px;
+}
