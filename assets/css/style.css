@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  background-color: #fff;
+  background: #fff;
   margin-top: 0;
   padding-top: 0;
 }
@@ -219,14 +219,15 @@ a {
   display: grid;
   align-items: center;
   margin-top: 114px;
-
 }
 
 .project1 {
   padding: 16px;
-  border: 1px solid #DFE1E6;
+  border: 1px solid #dfe1e6;
+  background-color: #fff;
   box-sizing: border-box;
   border-radius: 16px;
+  margin-bottom: 114px;
 }
 
 .project1 img {
@@ -247,26 +248,21 @@ a {
   font-weight: bold;
   font-size: 32px;
   margin: 0px;
-  /* line-height: 44px; */
 }
 
 .pri_text h1 {
   margin: 12px 0px 0px 0px;
 }
 
-
 .det_text {
   display: flex;
   margin: 20px 0px;
-
 }
 
 .det_text img {
-
   align-self: center;
   margin-left: 12px;
   margin-right: 12px;
-
 }
 
 .canopy {
@@ -321,5 +317,92 @@ a {
   border: 1px solid #6070FF;
   box-sizing: border-box;
   border-radius: 8px;
+  background: none;
+  padding: 12px;
 }
 
+/* about section start */
+
+.about {
+  padding: 24px;
+  background: #fff;
+
+}
+
+.about-text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172B4D;
+  margin-top: 114px;
+}
+
+.description {
+  color: #344563;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.lets-con {
+  color: #7F8CFF;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.social-1 {
+  display: flex;
+
+}
+
+.social-1ist {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  width: 60%;
+}
+
+.social-icons {
+  list-style: none;
+}
+
+/* languages */
+.lang-div {
+  margin-top: 48px;
+}
+
+.lang-arrow {
+  display: flex;
+}
+
+
+.lang-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.lang-wrapper {
+  margin-top: 36px;
+}
+
+.lang {
+  display: flex;
+  background: #F7F7F9;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.lang img {
+  display: block;
+  align-self: center;
+  justify-content: center;
+  margin: 9px 16px 9px 12px;
+
+}
