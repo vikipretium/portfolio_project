@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  background: #fff;
+  background: rgb(255, 255, 255);
   margin-top: 0;
   padding-top: 0;
 }
@@ -217,17 +217,19 @@ a {
 /* work-section */
 .works {
   display: grid;
+  gap: 88px;
   align-items: center;
   margin-top: 114px;
 }
 
 .project1 {
+  display: flex;
+  flex-direction: column;
   padding: 16px;
   border: 1px solid #dfe1e6;
   background-color: #fff;
   box-sizing: border-box;
   border-radius: 16px;
-  margin-bottom: 114px;
 }
 
 .project1 img {
@@ -239,24 +241,23 @@ a {
 
 .img {
   /* width: 100%; */
-
 }
 
 .pri_text {
-  color: #172B4D;
+  color: #172b4d;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
-  margin: 0px;
+  margin: 0;
 }
 
 .pri_text h1 {
-  margin: 12px 0px 0px 0px;
+  margin: 12px 0 0 0;
 }
 
 .det_text {
   display: flex;
-  margin: 20px 0px;
+  margin: 20px 0;
 }
 
 .det_text img {
@@ -274,7 +275,7 @@ a {
 }
 
 .detail {
-  color: #7A869A;
+  color: #7a869a;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -293,28 +294,27 @@ a {
   list-style-type: none;
   display: flex;
   gap: 8px;
-  padding-left: 0px;
+  padding-left: 0;
 }
-
 
 .tags {
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
-  color: #6070FF;
-  background: #EBEBFF;
+  color: #6070ff;
+  background: #ebebff;
   border-radius: 8px;
   padding: 4px 12px;
 }
 
 .button {
-  color: #396DF2;
+  color: #396df2;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  border: 1px solid #6070FF;
+  border: 1px solid #6070ff;
   box-sizing: border-box;
   border-radius: 8px;
   background: none;
@@ -326,7 +326,8 @@ a {
 .about {
   padding: 24px;
   background: #fff;
-
+  border-radius: 0 70px 0 0;
+  margin-top: 114px;
 }
 
 .about-text {
@@ -334,7 +335,7 @@ a {
   font-weight: bold;
   font-size: 40px;
   line-height: 52px;
-  color: #172B4D;
+  color: #172b4d;
   margin-top: 114px;
 }
 
@@ -347,7 +348,7 @@ a {
 }
 
 .lets-con {
-  color: #7F8CFF;
+  color: #7f8cff;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -356,14 +357,13 @@ a {
 
 .social-1 {
   display: flex;
-
 }
 
 .social-1ist {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   width: 60%;
 }
 
@@ -372,14 +372,25 @@ a {
 }
 
 /* languages */
-.lang-div {
+.list-lang {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
   margin-top: 48px;
 }
 
 .lang-arrow {
   display: flex;
+  justify-content: space-between;
 }
 
+.lang-arrow img {
+  margin-right: 40px;
+}
+
+.lang-arrow-right {
+  transform: rotate(-90deg);
+}
 
 .lang-text {
   font-style: normal;
@@ -394,7 +405,7 @@ a {
 
 .lang {
   display: flex;
-  background: #F7F7F9;
+  background: #f7f7f9;
   border-radius: 8px;
   margin-bottom: 12px;
 }
@@ -404,5 +415,8 @@ a {
   align-self: center;
   justify-content: center;
   margin: 9px 16px 9px 12px;
+}
 
+hr {
+  margin: 0;
 }
