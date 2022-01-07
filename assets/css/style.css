@@ -319,6 +319,22 @@ a {
   border-radius: 8px;
   background: none;
   padding: 12px;
+  width: fit-content;
+}
+
+button:hover {
+  background: #6070ff;
+  box-shadow: 0 8px 16px 0 #4053fc3d;
+  color: #fff;
+}
+
+button:active {
+  background: #2230d2;
+  color: #fff;
+}
+
+button:disabled {
+  color: #5e6c84;
 }
 
 /* about section start */
