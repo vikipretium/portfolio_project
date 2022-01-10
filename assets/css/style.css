@@ -292,7 +292,7 @@ a {
 
 .tag_text ul {
   list-style-type: none;
-  display: flex;
+  /* display: flex; */
   gap: 8px;
   padding-left: 0;
 }
@@ -306,6 +306,7 @@ a {
   background: #ebebff;
   border-radius: 8px;
   padding: 4px 12px;
+  float: inline-start;
 }
 
 .button {
@@ -435,4 +436,46 @@ button:disabled {
 
 hr {
   margin: 0;
+}
+
+/* pair programming */
+.float-element1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #6070ff;
+  background: #ebebff;
+  border-radius: 8px;
+  padding: 4px 12px;
+  float: inline-start;
+  width: 50px;
+  height: 20px;
+}
+.float-element2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #6070ff;
+  background: #ebebff;
+  border-radius: 8px;
+  padding: 4px 12px;
+  float: left;
+  width: 50px;
+  height: 20px;
+}
+
+.float-element3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #6070ff;
+  background: #ebebff;
+  border-radius: 8px;
+  padding: 4px 12px;
+  float: right;
+  width: 50px;
+  height: 20px;
 }
