@@ -498,26 +498,22 @@ footer {
   background: #fff;
   height: 48px;
   margin: 57px 24px 0;
-  width: fill-available;
 }
 
 .email {
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   background: #fff;
-  margin: 20px 0 0;
   height: 48px;
-  margin: 20px 24px 0;
-  width: fill-available;
+  margin: 20px 24px 0 24px;
 }
 
 .text-area {
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   background: #fff;
-  margin: 18px 24px 0;
+  margin: 18px 24px 0 24px;
   height: 170px;
-  width: fill-available;
   vertical-align: top;
 }
 
