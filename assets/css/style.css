@@ -437,4 +437,17 @@ hr {
   margin: 0;
 }
 
+/* contact form start */
+footer {
+  background: #6070FF;
+  background-image: url(/assets/images/Microverse-Student-Project-1/contact_form_shapes-mobile.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: right;
+  padding-top: 21px;
+  padding-bottom: 48px;
+}
+.contact-block {
+  
+}
 
