@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
 
 html {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(255 255 255);
   font-family: "Poopins", sans-serif;
 }
 
@@ -63,7 +63,7 @@ a {
 .bt {
   width: 40px;
   height: 40px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(255 255 255);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -75,7 +75,7 @@ a {
 .icon {
   width: 24px;
   height: 24px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(255 255 255);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -87,7 +87,7 @@ a {
   flex-direction: column;
   width: 20px;
   height: 14px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(255 255 255);
   align-items: center;
   justify-content: space-around;
 }
@@ -107,8 +107,7 @@ a {
 
 .welcome-section {
   background-color: #fff;
-  border-radius: 0 0 0 85px ;
-
+  border-radius: 0 0 0 85px;
 }
 
 .headline-wrapper {
@@ -120,7 +119,7 @@ a {
 .headline-container {
   display: flex;
   flex-direction: column;
-  margin: 0 24px 0px 24px;
+  margin: 0 24px;
   padding-top: 101px;
 }
 
@@ -128,13 +127,11 @@ a {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  font-family: "Poppins", sans-serif;
   color: #091e42;
   margin: 0;
 }
 
 .intro-message {
-  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -145,8 +142,9 @@ a {
 
 .connect {
   color: #6070ff;
-  margin: 0 0 12px 0;
+  margin: 0 0 12px;
 }
+
 h3 {
   margin: 0;
 }
@@ -265,7 +263,7 @@ h3 {
 }
 
 .pri_text h1 {
-  margin: 12px 0 0 0;
+  margin: 12px 0 0;
 }
 
 .det_text {
@@ -353,7 +351,7 @@ button:disabled {
 /* about section start */
 
 .about {
-  padding: 24px 24px 140px 24px;
+  padding: 24px 24px 113px;
   background: #fff;
   border-radius: 0 70px 0 0;
   margin-top: 114px;
@@ -452,6 +450,9 @@ hr {
 }
 
 /* contact form start */
+footer {
+  background-color: #fff;
+}
 
 .contact-form {
   display: flex;
@@ -459,14 +460,11 @@ hr {
   justify-content: center;
   background: #6070ff;
   border-radius: 86px 0 0;
-  margin-top: -40px;
   background-image: url("/assets/images/contact-image/contact-bg.png.png");
   background-repeat: no-repeat;
   background-position: right;
-  height:830px;
-
-
 }
+
 .form-heading {
   font-style: normal;
   font-weight: bold;
@@ -474,9 +472,8 @@ hr {
   line-height: 52px;
   color: #fff;
   text-align: center;
-  margin: 103px 0 0 0;
+  margin: 103px 0 0;
 }
-
 
 .form-description {
   color: #fff;
@@ -484,7 +481,7 @@ hr {
   font-weight: normal;
   font-size: 20px;
   line-height: 28px;
-  margin: 12px 24px 0 24px;
+  margin: 12px 24px 0;
   text-align: center;
   padding: 12px 24px;
 }
@@ -500,32 +497,32 @@ hr {
   border-radius: 8px;
   background: #fff;
   height: 48px;
-  margin: 57px 24px 0 24px;
-  width: -webkit-fill-available;
+  margin: 57px 24px 0;
+  width: fill-available;
 }
 
 .email {
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   background: #fff;
-  margin: 20px 0 0 0;
+  margin: 20px 0 0;
   height: 48px;
-  margin: 20px 24px 0 24px;
-  width: -webkit-fill-available;
+  margin: 20px 24px 0;
+  width: fill-available;
 }
 
 .text-area {
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   background: #fff;
-  margin: 18px 24px 0 24px;
+  margin: 18px 24px 0;
   height: 170px;
-  width: -webkit-fill-available;
+  width: fill-available;
+  vertical-align: top;
 }
 
-.text-area:placeholder {
-  padding-left: 16px;
-  padding-top: 15px;
+textarea {
+  vertical-align: top;
 }
 
 .button1 {
@@ -536,6 +533,19 @@ hr {
   color: #6070ff;
   background: #fff;
   border-radius: 8px;
+  border-color: #fff;
   padding: 12px 16px;
-  margin: 22px 24px 45px 24px;
+  margin: 22px 24px 45px;
+}
+
+.last_line {
+  height: 10px;
+  padding-bottom: 8px;
+}
+
+.black_line {
+  background-color: black;
+  padding: 3px 0;
+  border-radius: 3px;
+  margin: 0 118px;
 }
