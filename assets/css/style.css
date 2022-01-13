@@ -2,7 +2,7 @@
 
 html {
   background-color: rgb(255 255 255);
-  font-family: "Poopins", sans-serif;
+  font-family: Poopins, sans-serif;
 }
 
 body {
@@ -111,7 +111,7 @@ a {
 }
 
 .headline-wrapper {
-  padding-bottom: 136px;
+  padding-bottom: 200px;
   background-image: url("/assets/images/intro_section_bg/intro_bg.png.png");
   background-repeat: no-repeat;
 }
@@ -498,6 +498,12 @@ footer {
   background: #fff;
   height: 48px;
   margin: 57px 24px 0;
+  width: 327px;
+}
+
+.uname::placeholder {
+  padding-left: 16px;
+  padding-top: 15px;
 }
 
 .email {
@@ -506,6 +512,12 @@ footer {
   background: #fff;
   height: 48px;
   margin: 20px 24px 0 24px;
+  width: 327px;
+}
+
+.email::placeholder {
+  padding-left: 16px;
+  padding-top: 15px;
 }
 
 .text-area {
@@ -515,10 +527,13 @@ footer {
   margin: 18px 24px 0 24px;
   height: 170px;
   vertical-align: top;
+  font-family: Poppins, sans-serif;
+  width: 327px;
 }
 
-textarea {
-  vertical-align: top;
+.text-area::placeholder {
+  padding-left: 16px;
+  padding-top: 15px;
 }
 
 .button1 {
@@ -532,6 +547,7 @@ textarea {
   border-color: #fff;
   padding: 12px 16px;
   margin: 22px 24px 45px;
+  border: 1px solid #cfd8dc;
 }
 
 .last_line {
