@@ -2,7 +2,7 @@
 
 html {
   background-color: rgb(255 255 255);
-  font-family: "Poopins", sans-serif;
+  font-family: Poopins, sans-serif;
 }
 
 body {
@@ -464,7 +464,7 @@ footer {
   justify-content: center;
   background: #6070ff;
   border-radius: 86px 0 0;
-  background-image: url("/assets/images/contact-image/contact-bg.png.png");
+  background-image: url("../images/contact-bg.png");
   background-repeat: no-repeat;
   background-position: right;
 }
@@ -516,6 +516,12 @@ ul.form-content * {
   background: #fff;
   height: 48px;
   margin: 20px 24px 0 24px;
+  width: 327px;
+}
+
+.email::placeholder {
+  padding-left: 16px;
+  padding-top: 15px;
 }
 
 input::placeholder {
@@ -543,8 +549,9 @@ input::placeholder {
   color: #b3bac5;
 }
 
-textarea {
-  vertical-align: top;
+.text-area::placeholder {
+  padding-left: 16px;
+  padding-top: 15px;
 }
 
 textarea::placeholder {
