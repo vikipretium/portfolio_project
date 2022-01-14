@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
 
 html {
-  background-color: rgb(255 255 255);
+  background-color: #fff;
   font-family: Poopins, sans-serif;
 }
 
@@ -11,218 +11,22 @@ body {
   padding: 0;
 }
 
+.text-color-1 {
+  color: #6070ff;
+}
+
+.text-color-2 {
+    color: #344563;
+}
+
 /* top bar start */
 
 .top-bar {
   margin: 0;
 }
-
-/* logo text start */
-.nav-bar {
-  background-color: #fff;
-  display: flex;
-  flex-direction: row;
-  padding-top: 48px;
-  padding-bottom: 26px;
-}
-
-.logo-placeholder {
-  width: 100px;
-  height: 40px;
-
-  /* border: 1px solid pink; */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-left: 12px;
-}
-
-.logo-div {
-  width: 76px;
-  height: 20px;
-
-  /* border: 1px solid red; */
-  text-decoration: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-.logo {
-  color: #6070ff;
-  font-size: 18px;
-  line-height: 20px;
-  font-weight: 700;
-}
-
-/* logo text end */
-
-/* hamburger icon start  */
-.bt {
-  width: 40px;
-  height: 40px;
-  background-color: rgb(255 255 255);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  margin-left: auto;
-  margin-right: 24px;
-}
-
-.icon {
-  width: 24px;
-  height: 24px;
-  background-color: rgb(255 255 255);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.squeezer {
-  display: flex;
-  flex-direction: column;
-  width: 20px;
-  height: 14px;
-  background-color: rgb(255 255 255);
-  align-items: center;
-  justify-content: space-around;
-}
-
-.bt1 {
-  width: 16px;
-  border: 1px solid #6070ff;
-  border-radius: 1px;
-  background: #6070ff;
-}
-
-/* hamburger icon end */
-
 /* top bar end */
 
-/* headline section */
 
-.welcome-section {
-  background-color: #fff;
-  border-radius: 0 0 0 85px;
-}
-
-.headline-wrapper {
-  padding-bottom: 200px;
-  background-image: url("../images/intro_section_bg/intro_bg.png");
-  background-repeat: no-repeat;
-}
-
-.headline-container {
-  display: flex;
-  flex-direction: column;
-  margin: 0 24px;
-  padding-top: 101px;
-}
-
-.intro-text {
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  color: #091e42;
-  margin: 0;
-}
-
-.intro-message {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
-  color: #344563;
-  margin: 12px 0;
-}
-
-.connect {
-  color: #6070ff;
-  margin: 0 0 12px;
-}
-
-h3 {
-  margin: 0;
-}
-
-.social {
-  display: flex;
-
-  /* background-color: red; */
-  width: 170.17px;
-  height: 20px;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.twitter {
-  background-image: url("../images/t.svg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-
-  /* background-size: contain; */
-}
-
-.tw_img {
-  height: 20px;
-  width: 20px;
-}
-
-.linkedin {
-  background-image: url("../images/l.svg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-
-  /* background-size: contain; */
-}
-
-.lk_img {
-  height: 20px;
-  width: 20px;
-}
-
-.medium {
-  background-image: url("../images/m.svg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-
-  /* background-size: contain; */
-}
-
-.m_img {
-  height: 20px;
-  width: 20px;
-}
-
-.git {
-  background-image: url("../images/g.svg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-
-  /* background-size: contain; */
-}
-
-.g_img {
-  height: 20px;
-  width: 20px;
-}
-
-.angel {
-  background-image: url("../images/a.svg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-
-  /* background-size: contain; */
-}
-
-.a_img {
-  height: 20px;
-  width: 20px;
-}
 
 /* work-section */
 .works {
@@ -347,6 +151,7 @@ button:active {
 button:disabled {
   color: #5e6c84;
 }
+/* works section end */
 
 /* about section start */
 
@@ -448,6 +253,7 @@ button:disabled {
 hr {
   margin: 0;
 }
+/* about section end */
 
 /* contact form start */
 footer {
@@ -561,3 +367,5 @@ footer {
   border-radius: 3px;
   margin: 0 118px;
 }
+
+/* contact form end */

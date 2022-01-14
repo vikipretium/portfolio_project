@@ -14,7 +14,7 @@
 <body>
   <!-- top-bar -->
   <header class="top-bar">
-    <nav class="nav-bar">
+    <nav class="nav-bar-mobile">
       <div class="logo-placeholder">
         <div class="logo-div">
           <a href="#" class="logo">My Logo</a>
@@ -32,12 +32,32 @@
       </div>
       <!-- hamburger icon end -->
     </nav>
-  </header>
-  
-  <!-- top-bar -->
-  <main class="main-section">
-    <!-- headline section -->
 
+    <!-- desktop nav bar start -->
+    <!-- <nav class="nav-bar-desktop">
+      <div class="logo-placeholder">
+        <div class="logo-div">
+          <a href="#" class="logo">My Logo</a>
+        </div>
+      </div>
+
+    </nav> -->
+
+    <div class="nav-div">
+      <nav class="nav-bar-desktop">
+        <div><h3 class="nav-bar-logo text-color-1" >My Logo</h3></div>
+        <ul class="ul-flex">
+          <li><h3 class="nav-bar-project text-color-2 " >Projects</h3></li>
+          <li><h3 class="nav-bar-about text-color-2" >About</h3></li>
+          <li><h3 class="nav-bar-contact text-color-2" >Contact</h3></li>
+        </ul>
+      </nav>
+    <!-- top-bar -->
+  </header>
+
+  <main class="main-section">
+
+    <!-- headline section -->
     <section class="welcome-section" id="welcome">
       <div class="headline-wrapper">
         <div class="headline-container">
@@ -84,6 +104,9 @@
         </div>
       </div>
     </section>
+    <div class="intro">
+      
+    </div>
 
     <!-- headline section end -->
 
@@ -275,7 +298,8 @@
         <ul class="form-content">
           <li>
             <label for="name"></label>
-            <input id="name" class="uname" type="text" name="user_name" placeholder="Full Name" maxlength="30" required />
+            <input id="name" class="uname" type="text" name="user_name" placeholder="Full Name" maxlength="30"
+              required />
           </li>
           <li>
             <label for="mail"></label>
@@ -284,7 +308,7 @@
           <li>
             <label for="msg"></label>
             <textarea id="msg" class="text-area" name="user_message" placeholder="Write your message here"
-              maxlength="500" required></textarea>  
+              maxlength="500" required></textarea>
           </li>
           <li>
             <button class="button1" type="submit">Get It Touch</button>
