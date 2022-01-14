@@ -1,14 +1,24 @@
 /* mobile css */
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 801px) {
+    .top-bar-desktop {
+        display: none;
+    }
     .nav-bar-desktop {
         display: none;
+    }
+    .welcome-section-desktop {
+        display: none;
+    }
+
+    .top-bar-mobile {
+        margin: 0;
     }
 
     .nav-bar-mobile {
         background-color: #fff;
         display: flex;
         flex-direction: row;
-        padding-top: 48px;
+        padding-top: 26px;
         padding-bottom: 26px;
     }
 
@@ -81,7 +91,7 @@
     /* hamburger icon end */
 
     /* headline section */
-    .welcome-section {
+    .welcome-section-mobile {
         background-color: #fff;
         border-radius: 0 0 0 85px;
     }

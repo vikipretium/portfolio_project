@@ -19,15 +19,6 @@ body {
     color: #344563;
 }
 
-/* top bar start */
-
-.top-bar {
-  margin: 0;
-}
-/* top bar end */
-
-
-
 /* work-section */
 .works {
   display: grid;
