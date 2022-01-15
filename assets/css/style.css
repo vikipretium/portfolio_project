@@ -338,6 +338,8 @@ h3 {
   background: #ebebff;
   border-radius: 8px;
   padding: 4px 12px;
+  animation: rotation 5s;
+  animation-iteration-count: infinite;
 }
 
 .button {
