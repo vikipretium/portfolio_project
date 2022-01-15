@@ -130,6 +130,13 @@ a {
   line-height: 52px;
   color: #091e42;
   margin: 0;
+  
+}
+
+@keyframes rotation {
+  50% {
+    transform: scale(1.5,1.5);
+  }
 }
 
 .intro-message {
@@ -158,12 +165,15 @@ h3 {
   height: 20px;
   justify-content: space-between;
   align-items: center;
+  
 }
 
 .twitter {
   background-image: url("../images/t.svg");
   background-size: 100%;
   background-repeat: no-repeat;
+  animation: rotation 5s;
+  animation-iteration-count: infinite;
 
   /* background-size: contain; */
 }
@@ -177,6 +187,8 @@ h3 {
   background-image: url("../images/l.svg");
   background-size: 100%;
   background-repeat: no-repeat;
+  animation: rotation 5s;
+  animation-iteration-count: infinite;
 
   /* background-size: contain; */
 }
@@ -190,6 +202,8 @@ h3 {
   background-image: url("../images/m.svg");
   background-size: 100%;
   background-repeat: no-repeat;
+  animation: rotation 5s;
+  animation-iteration-count: infinite;
 
   /* background-size: contain; */
 }
@@ -203,6 +217,8 @@ h3 {
   background-image: url("../images/g.svg");
   background-size: 100%;
   background-repeat: no-repeat;
+  animation: rotation 5s;
+  animation-iteration-count: infinite;
 
   /* background-size: contain; */
 }
@@ -216,6 +232,8 @@ h3 {
   background-image: url("../images/a.svg");
   background-size: 100%;
   background-repeat: no-repeat;
+  animation: rotation 5s;
+  animation-iteration-count: infinite;
 
   /* background-size: contain; */
 }
@@ -821,3 +839,7 @@ ul.form-content .button1 {
     display: none;
   }
 }
+
+
+
+
