@@ -5,6 +5,8 @@
 > One paragraph statement about the project.
 
 ![screenshot](./assets/images/Screenshot.png)
+![screenshot](./assets/images/Desktop.png)
+
 
 Additional description about the project and its features.
 
@@ -15,7 +17,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://vikipretium.github.io/portfolio_project/)
 
 
 ## Author
