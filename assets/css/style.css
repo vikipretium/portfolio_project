@@ -605,6 +605,14 @@ ul.form-content .button1 {
   width: 100%;
 }
 
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
 /* Media query start */
 
 /* desktop */
@@ -834,4 +842,51 @@ ul.form-content .button1 {
   .nav-bar-desktop {
     display: none;
   }
+  .mobile-menu-overlay {
+    display: block;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(6px);
+    mix-blend-mode: multiply;
+    background: #6070ff;
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+
+  .mobile-menu {
+    list-style: none;
+    padding: 106px 96px 0 28px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: white;
+  }
+  .mobile-menu a {
+    color: white;
+  }
+
+  .mobile-menu > li {
+    padding-bottom: 30px;
+  }
+
+  .close_mobile_menu {
+    height: 12px;
+    width: 12px;
+    border-radius: 0;
+    float: right;
+    margin-right: 38px;
+    margin-top: 62px;
+    color: white;
+  }
+
+  *, *::before, *::after {
+    box-sizing: inherit;
+}
+  
 }
