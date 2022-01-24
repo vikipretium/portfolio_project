@@ -1,12 +1,12 @@
-const mobile_menu = document.getElementById("mobile_menu");
-const close_button = document.getElementById("close_button");
-const open_button = document.getElementById("bt")
-function open_overlay(){
-    mobile-menu-overlay.style.width = 100%;
-}
-function close_overlay(){
-    mobile-menu-overlay.style.width = 0%;
-}
-mobile_menu.addEventListener('click',() => open_overlay())
-close_button.addEventListener('click',() => close_overlay())
+const mobileMenu = document.getElementById('mobile_menu');
+const closeButton = document.getElementById('close_button');
+const openButton = document.querySelector('.bt');
 
+function openOverlay(e) {
+  mobileMenu.style.display = 'block';
+}
+function closeOverlay(e) {
+  mobileMenu.style.display = 'none';
+}
+openButton.addEventListener('click', openOverlay);
+closeButton.addEventListener('click', closeOverlay);
