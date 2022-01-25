@@ -132,12 +132,6 @@ a {
   margin: 0;
 }
 
-@keyframes rotation {
-  50% {
-    transform: scale(1.5, 1.5);
-  }
-}
-
 .intro-message {
   font-style: normal;
   font-weight: normal;
@@ -170,10 +164,6 @@ h3 {
   background-image: url("../images/t.svg");
   background-size: 100%;
   background-repeat: no-repeat;
-  animation: rotation 5s;
-  animation-iteration-count: infinite;
-
-  /* background-size: contain; */
 }
 
 .tw-img {
@@ -185,10 +175,6 @@ h3 {
   background-image: url("../images/l.svg");
   background-size: 100%;
   background-repeat: no-repeat;
-  animation: rotation 5s;
-  animation-iteration-count: infinite;
-
-  /* background-size: contain; */
 }
 
 .lk-img {
@@ -200,10 +186,6 @@ h3 {
   background-image: url("../images/m.svg");
   background-size: 100%;
   background-repeat: no-repeat;
-  animation: rotation 5s;
-  animation-iteration-count: infinite;
-
-  /* background-size: contain; */
 }
 
 .m-img {
@@ -215,10 +197,6 @@ h3 {
   background-image: url("../images/g.svg");
   background-size: 100%;
   background-repeat: no-repeat;
-  animation: rotation 5s;
-  animation-iteration-count: infinite;
-
-  /* background-size: contain; */
 }
 
 .g-img {
@@ -230,10 +208,6 @@ h3 {
   background-image: url("../images/a.svg");
   background-size: 100%;
   background-repeat: no-repeat;
-  animation: rotation 5s;
-  animation-iteration-count: infinite;
-
-  /* background-size: contain; */
 }
 
 .a-img {
@@ -332,8 +306,6 @@ h3 {
   background: #ebebff;
   border-radius: 8px;
   padding: 4px 12px;
-  animation: rotation 5s;
-  animation-iteration-count: infinite;
 }
 
 .button {
@@ -779,8 +751,6 @@ ul.form-content .button1 {
     display: block;
     align-self: center;
     justify-content: center;
-    margin: auto;
-    width: 1%;
   }
 
   .pri-text {
@@ -885,3 +855,4 @@ ul.form-content .button1 {
     color: white;
   }
 }
+
