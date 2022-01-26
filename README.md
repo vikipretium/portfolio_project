@@ -13,6 +13,7 @@ Additional description about the project and its features.
 
 - HTML
 - CSS
+- JS
 
 ## Live Demo
 
