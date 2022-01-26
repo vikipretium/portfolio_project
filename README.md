@@ -1,24 +1,23 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio 
+# Portfolio
 
 > One paragraph statement about the project.
 
 ![screenshot](./assets/images/Screenshot.png)
 ![screenshot](./assets/images/Desktop.png)
 
-
 Additional description about the project and its features.
 
 ## Built With
 
-- HTML 
+- HTML
 - CSS
+- JS
 
 ## Live Demo
 
 [Live Demo Link](https://vikipretium.github.io/portfolio_project/)
-
 
 ## Author
 
@@ -29,6 +28,18 @@ Additional description about the project and its features.
 - LinkedIn: [vikipretium](https://linkedin.com/in/vikipretium)
 
 ## 🤝 Contributing
+
+👤 **Soufiane Boursen**
+
+- GitHub: [@Sboursen](https://github.com/Sboursen)
+- Twitter: [@sboursen_dev](https://twitter.com/sboursen_dev)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/sboursen)
+
+👤 **Dagic Zewdu**
+
+- GitHub: [@dagi](https://)
+- Twitter: [@dagi]()
+- LinkedIn: [LinkedIn]()
 
 Contributions, issues, and feature requests are welcome!
 
