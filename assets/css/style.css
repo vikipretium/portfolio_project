@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 
 html {
   background-color: rgb(255 255 255);
@@ -112,7 +112,7 @@ a {
 
 .headline-wrapper {
   padding-bottom: 136px;
-  background-image: url("../images/intro_section_bg/intro_bg.svg");
+  background-image: url('../images/intro_section_bg/intro_bg.svg');
   background-repeat: no-repeat;
   background-size: 100vw auto;
 }
@@ -161,7 +161,7 @@ h3 {
 }
 
 .twitter {
-  background-image: url("../images/t.svg");
+  background-image: url('../images/t.svg');
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -172,7 +172,7 @@ h3 {
 }
 
 .linkedin {
-  background-image: url("../images/l.svg");
+  background-image: url('../images/l.svg');
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -183,7 +183,7 @@ h3 {
 }
 
 .medium {
-  background-image: url("../images/m.svg");
+  background-image: url('../images/m.svg');
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -194,7 +194,7 @@ h3 {
 }
 
 .git {
-  background-image: url("../images/g.svg");
+  background-image: url('../images/g.svg');
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -205,7 +205,7 @@ h3 {
 }
 
 .angel {
-  background-image: url("../images/a.svg");
+  background-image: url('../images/a.svg');
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -451,7 +451,7 @@ footer {
   justify-content: center;
   background: #6070ff;
   border-radius: 86px 0 0;
-  background-image: url("../images/contact-bg.svg");
+  background-image: url('../images/contact-bg.svg');
   background-repeat: no-repeat;
   background-position: right;
 }
@@ -652,7 +652,7 @@ ul.form-content .button1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url("../images/intro_desktop.svg");
+    background-image: url('../images/intro_desktop.svg');
     background-repeat: no-repeat;
     background-size: 100vw auto;
     height: calc(100vh - 72px);
@@ -765,7 +765,7 @@ ul.form-content .button1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url("../images/contact_form.svg");
+    background-image: url('../images/contact_form.svg');
     background-repeat: no-repeat;
     background-size: 100vw auto;
   }
@@ -913,6 +913,13 @@ ul.form-content .button1 {
   float: right;
   font-size: 28px;
   font-weight: bold;
+  cursor: pointer;
+  padding: 0 7px;
+  border-radius: 50%;
+}
+
+.close:hover {
+  background-color: #3f3f3f18;
 }
 
 .project-popups-links {
