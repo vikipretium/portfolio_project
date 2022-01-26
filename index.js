@@ -37,36 +37,36 @@ const projects = [{
 },
 ];
 
-const projectButtons=[]
+const projectButtons = [];
 const mobileMenu = document.getElementById('mobile-menu');
 const closeButton = document.getElementById('close-button');
 const techList = document.getElementById('tech-list');
 const modal = document.getElementById('popup-modal');
 const openButton = document.querySelector('.bt');
 const links = document.querySelectorAll('.mobile-menu li > a');
-const modalCloseBtn=document.querySelector('span.close')
-const buttons=document.querySelectorAll('button')
-const modalTitle=document.querySelector('#modal-project-name')
-const modalImage=document.querySelector('img.modal-image')
+const modalCloseBtn = document.querySelector('span.close');
+const buttons = document.querySelectorAll('button');
+const modalTitle = document.querySelector('#modal-project-name');
+const modalImage = document.querySelector('img.modal-image');
 
-buttons.forEach(button=>{
-  let id=button.id
-  let idName=id.split('-')[0] //project-1
-  if(idName==='project') projectButtons.push(button)
-})
-const openModal=id=>{
-  modal.style.display='block'
-  let project= projects.find(project=> project.id === id)
-  modalTitle.textContent=project.name
-  modalImage.src=project.featured_image
-  let li=``
-  project.technologies.forEach(tech=> li+=`<li class="tags">${tech}</li>`)
-  techList.innerHTML=li
-}
-projectButtons.forEach(button=>{
-  let id=button.id
-  button.addEventListener('click',()=>openModal(id))
-})
+buttons.forEach((button) => {
+  const { id } = button;
+  const idName = id.split('-')[0]; // project-1
+  if (idName === 'project') projectButtons.push(button);
+});
+const openModal = (id) => {
+  modal.style.display = 'block';
+  const project = projects.find((project) => project.id === id);
+  modalTitle.textContent = project.name;
+  modalImage.src = project.featured_image;
+  let li = '';
+  project.technologies.forEach((tech) => { li += `<li class="tags">${tech}</li>`; });
+  techList.innerHTML = li;
+};
+projectButtons.forEach((button) => {
+  const { id } = button;
+  button.addEventListener('click', () => openModal(id));
+});
 
 function openOverlay() {
   mobileMenu.style.display = 'block';
@@ -77,4 +77,4 @@ function closeOverlay() {
 openButton.addEventListener('click', openOverlay);
 closeButton.addEventListener('click', closeOverlay);
 links.forEach((node) => node.addEventListener('click', closeOverlay));
-modalCloseBtn.addEventListener('click',()=>{ modal.style.display='none'} )
+modalCloseBtn.addEventListener('click', () => { modal.style.display = 'none'; });

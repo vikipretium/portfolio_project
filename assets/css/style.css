@@ -295,6 +295,7 @@ h3 {
   display: flex;
   gap: 8px;
   padding-left: 0;
+  flex-wrap: wrap;
 }
 
 .tags {
@@ -801,16 +802,18 @@ ul.form-content .button1 {
   .uname {
     margin-top: 36px;
   }
+
   .modal-description {
     display: flex;
+    gap: 20px;
   }
-  
+
   .modal-body-decription {
-    flex:2;
+    flex: 2;
   }
-  
+
   .tech {
-    flex:1;
+    flex: 1;
   }
 }
 
@@ -868,6 +871,7 @@ ul.form-content .button1 {
 
   .modal-description {
     display: block;
+    color: #344563;
   }
 }
 
@@ -875,19 +879,20 @@ ul.form-content .button1 {
   width: 100%;
   height: 440px;
   object-fit: cover;
+  border-radius: 10px;
 }
 
 .popup-modal {
   display: none;
-  position: fixed; 
+  position: fixed;
   z-index: 1; /* Sit on top */
   left: 0;
   top: 0;
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  background-color: rgb(0 0 0); /* Fallback color */
+  background-color: rgb(0 0 0 / 40%); /* Black w/ opacity */
 }
 
 .popup-content {
@@ -896,6 +901,11 @@ ul.form-content .button1 {
   padding: 20px;
   border: 1px solid #888;
   width: 80%;
+  border-radius: 10px;
+}
+
+.modal-body-decription {
+  color: #344563;
 }
 
 .close {
@@ -903,4 +913,18 @@ ul.form-content .button1 {
   float: right;
   font-size: 28px;
   font-weight: bold;
+}
+
+.project-popups-links {
+  margin-top: 18px;
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+}
+
+.popup-button {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
 }
