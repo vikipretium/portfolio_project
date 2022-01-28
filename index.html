@@ -342,10 +342,12 @@
             </div>
             <hr>
             <div class="project-popups-links">
-              <button type="button" class="button popup-button">See Live <img src="assets/images/see-live.svg" alt="link-logo"></button>
-              
-              <button type="button" class="button popup-button">See Source <img src="assets/images/see-source.svg" alt="git-logo"></button>
-              
+              <button type="button" class="button popup-button">See Live <img src="assets/images/see-live.svg"
+                  alt="link-logo"></button>
+
+              <button type="button" class="button popup-button">See Source <img src="assets/images/see-source.svg"
+                  alt="git-logo"></button>
+
             </div>
 
           </div>
@@ -363,21 +365,27 @@
         that you need built or a project that needs coding. I’d love to help
         with it
       </p>
-      <form action="https://formspree.io/f/mgedowow" method="post">
+      <form action="https://formspree.io/f/mgedowow" method="post" id="form">
         <ul class="form-content">
-          <li>
+          <li class="form-control">
             <label for="name"></label>
             <input id="name" class="uname" type="text" name="user_name" placeholder="Full Name" maxlength="30"
               required />
+            <!-- <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i> -->
+            <small class="error"></small>
           </li>
-          <li>
+          <li class="form-control">
             <label for="mail"></label>
             <input id="mail" class="email" type="email" name="user_email" placeholder="E-Mail ID" required />
+            <small class="error"></small>
           </li>
-          <li>
+          <li class="form-control">
             <label for="msg"></label>
             <textarea id="msg" class="text-area" name="user_message" placeholder="Write your message here"
               maxlength="500" required></textarea>
+            <small class="error"></small>
+
           </li>
           <li class="button-li">
             <button class="button1" type="submit">Get It Touch</button>
