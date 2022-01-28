@@ -489,30 +489,19 @@ ul.form-content * {
   width: calc(100% - 24px);
 }
 
-.uname {
-  border: 1px solid #cfd8dc;
-  border-radius: 8px;
-  background: #fff;
-  height: 48px;
-  margin: 57px 24px 0;
+input {
+  padding-left: 16px;
+  color: #b3bac5;
+
 }
 
-.email {
-  border: 1px solid #cfd8dc;
-  border-radius: 8px;
-  background: #fff;
-  height: 48px;
-  margin: 20px 24px 0;
-  width: 327px;
-}
-
-.email::placeholder {
+textarea {
   padding-left: 16px;
   padding-top: 15px;
+  color: #b3bac5;
 }
 
 input::placeholder {
-  padding-left: 16px;
   font-family: Poopins, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -521,11 +510,29 @@ input::placeholder {
   color: #b3bac5;
 }
 
-.text-area {
-  border: 1px solid #cfd8dc;
+
+.uname {
+  border: 2px solid #cfd8dc;
   border-radius: 8px;
   background: #fff;
-  margin: 18px 24px 0;
+  height: 48px;
+  margin: 57px 24px 10px 24px;
+}
+
+.email {
+  border: 2px solid #cfd8dc;
+  border-radius: 8px;
+  background: #fff;
+  height: 48px;
+  margin: 20px 24px 10px 24px;
+  width: 327px;
+}
+
+.text-area {
+  border: 2px solid #cfd8dc;
+  border-radius: 8px;
+  background: #fff;
+  margin: 18px 24px 10px 24px;
   height: 170px;
   vertical-align: top;
   font-family: Poopins, sans-serif;
@@ -533,17 +540,6 @@ input::placeholder {
   font-weight: normal;
   font-size: 15px;
   line-height: 24px;
-  color: #b3bac5;
-}
-
-.text-area::placeholder {
-  padding-left: 16px;
-  padding-top: 15px;
-}
-
-textarea::placeholder {
-  padding-left: 16px;
-  padding-top: 15px;
 }
 
 ul.form-content .button1 {
@@ -801,6 +797,7 @@ ul.form-content .button1 {
 
   .uname {
     margin-top: 36px;
+
   }
 
   .modal-description {
@@ -814,6 +811,10 @@ ul.form-content .button1 {
 
   .tech {
     flex: 1;
+  }
+
+  .mobile-menu-overlay {
+    display: none;
   }
 }
 
@@ -875,6 +876,7 @@ ul.form-content .button1 {
   }
 }
 
+/* popup  */
 .modal-image {
   width: 100%;
   height: 440px;
@@ -934,4 +936,43 @@ ul.form-content .button1 {
   gap: 10px;
   justify-content: center;
   align-items: center;
+}
+
+/* popup  */
+
+/* validation */
+small {
+  margin-top: 10px;
+  margin-left: 30px;
+}
+.error {
+  
+  color: #a31000;
+  font-size: 18px;
+  font-family: inherit;
+
+}
+
+.success {
+
+}
+
+.form-control.success input {
+  border-color: #2ecc71;
+}
+
+.form-control.success textarea {
+  border-color: #2ecc71;
+}
+
+.form-control.error input {
+  border-color: #e74c3c;
+}
+
+.form-control.error textarea {
+  border-color: #e74c3c;
+}
+
+.form-control.success small {
+  visibility: hidden;
 }

@@ -35,11 +35,11 @@ Additional description about the project and its features.
 - Twitter: [@sboursen_dev](https://twitter.com/sboursen_dev)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/sboursen)
 
-👤 **Dagic Zewdu**
+👤 **Dagic Zewdu Tilahun**
 
-- GitHub: [@dagi](https://)
-- Twitter: [@dagi]()
-- LinkedIn: [LinkedIn]()
+- GitHub: [@Dagic-zewdu](https://github.com/Dagic-zewdu)
+- Twitter: [@dagic4](https://twitter.com/dagic4)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/dagi-zewdu-21b835215/)
 
 Contributions, issues, and feature requests are welcome!
 

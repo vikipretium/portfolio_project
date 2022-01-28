@@ -1,40 +1,40 @@
 const projects = [{
-  id: 'project-1',
-  name: 'Tonic',
-  featured_image: 'assets/images/project1.svg',
-  technologies: ['HTML', 'CSS', 'javascript', 'Github', 'Ruby', 'Bootsrap'],
-  live_link: '',
-  source_link: '',
-  description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, fugiat maiores quam amet hic dolorum unde eaque explicabo sapiente asperiores voluptatibus vel. Neque deserunt sunt vel ducimus voluptatem tenetur quam incidunt esse sequi enim labore beatae iure minus dolorem nam commodi libero atque, voluptatum alias accusantium, molestiae maiores voluptatibus error. Cupiditate, enim nobis. Expedita deserunt et eaque quisquam nostrum ducimus quasi, accusantium facilis, quibusdam quia, accusamus excepturi voluptate minus consectetur dolore adipisci delectus! Facere officiis corrupti autem sequi quod atque?',
-},
-{
-  id: 'project-2',
-  name: 'Multi-Post Stories',
-  featured_image: 'assets/images/project2.svg',
-  technologies: ['HTML', 'CSS', 'javascript'],
-  live_link: '',
-  source_link: '',
-  description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, fugiat maiores quam amet hic dolorum unde eaque explicabo sapiente asperiores voluptatibus vel. Neque deserunt sunt vel ducimus voluptatem tenetur quam incidunt esse sequi enim labore beatae iure minus dolorem nam commodi libero atque, voluptatum alias accusantium, molestiae maiores voluptatibus error. Cupiditate, enim nobis. Expedita deserunt et eaque quisquam nostrum ducimus quasi, accusantium facilis, quibusdam quia, accusamus excepturi voluptate minus consectetur dolore adipisci delectus! Facere officiis corrupti autem sequi quod atque?',
-},
-{
-  id: 'project-3',
-  name: 'Facebook 360',
-  featured_image: 'assets/images/project3.svg',
-  technologies: ['HTML', 'CSS', 'javascript', 'Github', 'Ruby', 'Bootsrap', 'Node.js'],
-  live_link: '',
-  source_link: '',
-  description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, fugiat maiores quam amet hic dolorum unde eaque explicabo sapiente asperiores voluptatibus vel. Neque deserunt sunt vel ducimus voluptatem tenetur quam incidunt esse sequi enim labore beatae iure minus dolorem nam commodi libero atque, voluptatum alias accusantium, molestiae maiores voluptatibus error. Cupiditate, enim nobis. Expedita deserunt et eaque quisquam nostrum ducimus quasi, accusantium facilis, quibusdam quia, accusamus excepturi voluptate minus consectetur dolore adipisci delectus! Facere officiis corrupti autem sequi quod atque?',
+    id: 'project-1',
+    name: 'Tonic',
+    featured_image: 'assets/images/project1.svg',
+    technologies: ['HTML', 'CSS', 'javascript', 'Github', 'Ruby', 'Bootsrap'],
+    live_link: '',
+    source_link: '',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, fugiat maiores quam amet hic dolorum unde eaque explicabo sapiente asperiores voluptatibus vel. Neque deserunt sunt vel ducimus voluptatem tenetur quam incidunt esse sequi enim labore beatae iure minus dolorem nam commodi libero atque, voluptatum alias accusantium, molestiae maiores voluptatibus error. Cupiditate, enim nobis. Expedita deserunt et eaque quisquam nostrum ducimus quasi, accusantium facilis, quibusdam quia, accusamus excepturi voluptate minus consectetur dolore adipisci delectus! Facere officiis corrupti autem sequi quod atque?',
+  },
+  {
+    id: 'project-2',
+    name: 'Multi-Post Stories',
+    featured_image: 'assets/images/project2.svg',
+    technologies: ['HTML', 'CSS', 'javascript'],
+    live_link: '',
+    source_link: '',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, fugiat maiores quam amet hic dolorum unde eaque explicabo sapiente asperiores voluptatibus vel. Neque deserunt sunt vel ducimus voluptatem tenetur quam incidunt esse sequi enim labore beatae iure minus dolorem nam commodi libero atque, voluptatum alias accusantium, molestiae maiores voluptatibus error. Cupiditate, enim nobis. Expedita deserunt et eaque quisquam nostrum ducimus quasi, accusantium facilis, quibusdam quia, accusamus excepturi voluptate minus consectetur dolore adipisci delectus! Facere officiis corrupti autem sequi quod atque?',
+  },
+  {
+    id: 'project-3',
+    name: 'Facebook 360',
+    featured_image: 'assets/images/project3.svg',
+    technologies: ['HTML', 'CSS', 'javascript', 'Github', 'Ruby', 'Bootsrap', 'Node.js'],
+    live_link: '',
+    source_link: '',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, fugiat maiores quam amet hic dolorum unde eaque explicabo sapiente asperiores voluptatibus vel. Neque deserunt sunt vel ducimus voluptatem tenetur quam incidunt esse sequi enim labore beatae iure minus dolorem nam commodi libero atque, voluptatum alias accusantium, molestiae maiores voluptatibus error. Cupiditate, enim nobis. Expedita deserunt et eaque quisquam nostrum ducimus quasi, accusantium facilis, quibusdam quia, accusamus excepturi voluptate minus consectetur dolore adipisci delectus! Facere officiis corrupti autem sequi quod atque?',
 
-},
-{
-  id: 'project-4',
-  name: 'Uber Navigation',
-  featured_image: 'assets/images/project4.svg',
-  technologies: ['HTML', 'CSS', 'javascript', 'Github', 'Bootsrap'],
-  live_link: '',
-  source_link: '',
-  description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, fugiat maiores quam amet hic dolorum unde eaque explicabo sapiente asperiores voluptatibus vel. Neque deserunt sunt vel ducimus voluptatem tenetur quam incidunt esse sequi enim labore beatae iure minus dolorem nam commodi libero atque, voluptatum alias accusantium, molestiae maiores voluptatibus error. Cupiditate, enim nobis. Expedita deserunt et eaque quisquam nostrum ducimus quasi, accusantium facilis, quibusdam quia, accusamus excepturi voluptate minus consectetur dolore adipisci delectus! Facere officiis corrupti autem sequi quod atque?',
-},
+  },
+  {
+    id: 'project-4',
+    name: 'Uber Navigation',
+    featured_image: 'assets/images/project4.svg',
+    technologies: ['HTML', 'CSS', 'javascript', 'Github', 'Bootsrap'],
+    live_link: '',
+    source_link: '',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, fugiat maiores quam amet hic dolorum unde eaque explicabo sapiente asperiores voluptatibus vel. Neque deserunt sunt vel ducimus voluptatem tenetur quam incidunt esse sequi enim labore beatae iure minus dolorem nam commodi libero atque, voluptatum alias accusantium, molestiae maiores voluptatibus error. Cupiditate, enim nobis. Expedita deserunt et eaque quisquam nostrum ducimus quasi, accusantium facilis, quibusdam quia, accusamus excepturi voluptate minus consectetur dolore adipisci delectus! Facere officiis corrupti autem sequi quod atque?',
+  },
 ];
 
 const projectButtons = [];
@@ -50,7 +50,9 @@ const modalTitle = document.querySelector('#modal-project-name');
 const modalImage = document.querySelector('img.modal-image');
 
 buttons.forEach((button) => {
-  const { id } = button;
+  const {
+    id
+  } = button;
   const idName = id.split('-')[0]; // project-1
   if (idName === 'project') projectButtons.push(button);
 });
@@ -60,21 +62,152 @@ const openModal = (id) => {
   modalTitle.textContent = project.name;
   modalImage.src = project.featured_image;
   let li = '';
-  project.technologies.forEach((tech) => { li += `<li class="tags">${tech}</li>`; });
+  project.technologies.forEach((tech) => {
+    li += `<li class="tags">${tech}</li>`;
+  });
   techList.innerHTML = li;
 };
 projectButtons.forEach((button) => {
-  const { id } = button;
+  const {
+    id
+  } = button;
   button.addEventListener('click', () => openModal(id));
 });
 
 function openOverlay() {
   mobileMenu.style.display = 'block';
 }
+
 function closeOverlay() {
   mobileMenu.style.display = 'none';
 }
 openButton.addEventListener('click', openOverlay);
 closeButton.addEventListener('click', closeOverlay);
 links.forEach((node) => node.addEventListener('click', closeOverlay));
-modalCloseBtn.addEventListener('click', () => { modal.style.display = 'none'; });
+modalCloseBtn.addEventListener('click', () => {
+  modal.style.display = 'none';
+});
+
+// form validation
+
+const form = document.getElementById('form');
+const username = document.getElementById('name');
+const email = document.getElementById('mail');
+const fbMsg = document.getElementById('msg');
+
+// event listner
+
+form.addEventListener('submit', eventlisten);
+
+function eventlisten(e){
+  e.preventDefault();
+  checkInputs(form);
+  
+}
+
+// valid and error
+
+function setErrorFor(input, message) {
+  const formControl = input.parentElement; //.form control
+  const small = formControl.querySelector('small');
+
+  //add error message inside small
+
+  small.innerText = message;
+
+  //add error class
+  formControl.className = 'form-control error';
+}
+
+function setSuccessFor(input) {
+  const formControl = input.parentElement; //.form control
+  formControl.className = 'form-control success';
+
+  // formControl.classList.remove('error');
+  // formControl.classList.add('success');
+}
+
+// email validation
+
+
+function isEmail(email) {
+  return /^[a-z0-9._%+-]{3,}@[a-z0-9]{3,}(?:\.[a-z]{2,}){1,3}$/.test(
+    email,
+  );
+}
+
+// input check
+
+function checkInputs(form) {
+  
+  const usernameValue = username.value.trim();
+  const emailValue = email.value.trim();
+  const fbMsgValue = fbMsg.value.trim();
+  if (usernameValue === ""){
+    
+    setErrorFor(username, 'Username cannot be blank');
+  } else {
+    //add success class
+    setSuccessFor(username);
+  }
+
+  if (emailValue === '') {
+    setErrorFor(email, 'Email cannot be Blank');
+  } else if (!isEmail(emailValue)) {
+    setErrorFor(email, 'Email invalid');
+  } else {
+    setSuccessFor(email);
+  }
+
+  if (fbMsgValue === '') {
+    setErrorFor(fbMsg, 'Message cannot be Blank');
+  } else 
+  {
+    setSuccessFor(fbMsg);
+    console.log(form);
+    form.submit();
+  }
+  
+  
+}
+
+function setErrorFor(input, message) {
+  const formControl = input.parentElement; //.form control
+  const small = formControl.querySelector('small');
+
+  //add error message inside small
+
+  small.innerText = message;
+
+  //add error class
+  formControl.className = 'form-control error';
+  // if (formControl.classList.contains('success')) {
+  //   formControl.classList.remove('success');
+  // }
+  // if (!formControl.classList.contains('error')) {
+  //     formControl.classList.add('error');
+  // }
+  //   formControl.classList.remove('success');
+  //   formControl.classList.add('error');
+}
+
+function setSuccessFor(input) {
+  const formControl = input.parentElement; //.form control
+  formControl.className = 'form-control success';
+
+  // formControl.classList.remove('error');
+  // formControl.classList.add('success');
+}
+
+function isEmail(email) {
+  return /^[a-z0-9._%+-]{3,}@[a-z0-9]{3,}(?:\.[a-z]{2,}){1,3}$/.test(
+    email,
+  );
+}
+
+[username, email].forEach((Element) =>
+  Element.addEventListener('keyup', (event) => {
+    event.preventDefault();
+    checkInputs();
+  }),
+);
